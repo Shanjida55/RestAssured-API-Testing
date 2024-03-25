@@ -12,3 +12,8 @@ The project demonstrates token generation, a crucial aspect of API authenticatio
 Using the generated token and booking ID, the project enables PUT and PATCH requests to update booking details as needed.
 ##### Booking Deletion: 
 Finally, the project supports the deletion of bookings using the DELETE method, ensuring flexibility in managing booking data.
+
+#### Dependencies:
+-Java
+-Maven
+-Rest Assured
