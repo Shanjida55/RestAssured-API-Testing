@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="E:/Mobile Automation/API_Testing_RestAssured/src/test/java">
+
+        <classes>
+
+            <class name="testdata.AuthData"/>
+         <class name ="testdata.BookingData"/>
+            <class name="testdata.BookingDates"/>
+            <class name="testdata.PartialUpdateBookingData"/>
+            <class name="testdata.TestDataBuilder"/>
+            <class name="tests.BaseTest"/>
+            <class name="tests.BookingCreation.Successful_BookingCreation_usingValidData"/>
+            <class name="tests.BookingCreation.Keep_Firstname_blank"/>
+            <class name="tests.BookingCreation.Using_Invalid_TotalPrice"/>
+            <class name="tests.BookingCreation.Validate_Invalid_DateFormat_checkin"/>
+            <class name="tests.BookingCreation.Validate_Invalid_DateFormat_checkout"/>
+
+
+
+
+
+
+
+
+        </classes>
+
+
+
+
+    </test>
+</suite>
