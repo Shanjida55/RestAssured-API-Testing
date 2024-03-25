@@ -17,3 +17,5 @@ Finally, the project supports the deletion of bookings using the DELETE method, 
 -Java
 -Maven
 -Rest Assured
+
+
